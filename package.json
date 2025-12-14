@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:seed": "tsc -p tsconfig.seed.json",
+    "seed": "node prisma/dist/seed.js",
     "lint": "next lint"
   },
   "dependencies": {
